@@ -35,17 +35,22 @@ header button {
   background-color: rgb(221, 212, 111);
 }
 article {
+  border-color: brown;
+  border: 2px solid;
+  border-radius: 20px;
   background-color: beige;
+  width: 80%;
   margin: 4em auto;
   text-align: center;
-  width: 500;
+  height: 100%;
 }
 article ul {
-  padding-top: 2em;
+  margin: 0 auto;
+  padding: 2em;
   color: rgb(166, 19, 19);
   font-size: 1.2em;
   font-weight: bold;
-  width: 100%;
+  width: 80%;
 }
 article li {
   list-style: inside;

@@ -33,8 +33,8 @@ form.addEventListener('submit', function (e) {
     if (i === 0) {
       const each = deleteButton[0]
       each.addEventListener('click', function () {
-        // liList[0].style.display = 'none'
-        liList[0].remove()
+        liList[0].style.display = 'none'
+        // liList[0].remove()
       })
     } else if (i === 1) {
       const each = deleteButton[1]
@@ -60,6 +60,21 @@ form.addEventListener('submit', function (e) {
       const each = deleteButton[5]
       each.addEventListener('click', function () {
         liList[5].style.display = 'none'
+      })
+    } else if (i === 6) {
+      const each = deleteButton[6]
+      each.addEventListener('click', function () {
+        liList[6].style.display = 'none'
+      })
+    } else if (i === 7) {
+      const each = deleteButton[7]
+      each.addEventListener('click', function () {
+        liList[7].style.display = 'none'
+      })
+    } else if (i === 8) {
+      const each = deleteButton[8]
+      each.addEventListener('click', function () {
+        liList[8].style.display = 'none'
       })
     }
   }
