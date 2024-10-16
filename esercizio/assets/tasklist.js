@@ -76,6 +76,61 @@ form.addEventListener('submit', function (e) {
       each.addEventListener('click', function () {
         liList[8].style.display = 'none'
       })
+    } else if (i === 9) {
+      const each = deleteButton[9]
+      each.addEventListener('click', function () {
+        liList[9].style.display = 'none'
+      })
+    } else if (i === 10) {
+      const each = deleteButton[10]
+      each.addEventListener('click', function () {
+        liList[10].style.display = 'none'
+      })
+    } else if (i === 11) {
+      const each = deleteButton[11]
+      each.addEventListener('click', function () {
+        liList[11].style.display = 'none'
+      })
+    } else if (i === 12) {
+      const each = deleteButton[12]
+      each.addEventListener('click', function () {
+        liList[12].style.display = 'none'
+      })
+    } else if (i === 13) {
+      const each = deleteButton[13]
+      each.addEventListener('click', function () {
+        liList[13].style.display = 'none'
+      })
+    } else if (i === 14) {
+      const each = deleteButton[14]
+      each.addEventListener('click', function () {
+        liList[14].style.display = 'none'
+      })
+    } else if (i === 15) {
+      const each = deleteButton[15]
+      each.addEventListener('click', function () {
+        liList[15].style.display = 'none'
+      })
+    } else if (i === 16) {
+      const each = deleteButton[16]
+      each.addEventListener('click', function () {
+        liList[16].style.display = 'none'
+      })
+    } else if (i === 17) {
+      const each = deleteButton[17]
+      each.addEventListener('click', function () {
+        liList[17].style.display = 'none'
+      })
+    } else if (i === 18) {
+      const each = deleteButton[18]
+      each.addEventListener('click', function () {
+        liList[18].style.display = 'none'
+      })
+    } else if (i === 19) {
+      const each = deleteButton[19]
+      each.addEventListener('click', function () {
+        liList[19].style.display = 'none'
+      })
     }
   }
 })
