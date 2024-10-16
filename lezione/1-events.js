@@ -72,5 +72,5 @@ h1.addEventListener('mouseover', function (e) {
 })
 
 h1.addEventListener('mouseleave', function (e) {
-  h1.style.color = 'black'
+  h1.style.textDecorationLine.lineThrough
 })
