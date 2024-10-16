@@ -24,6 +24,9 @@ form.addEventListener('submit', function (e) {
     change.addEventListener('click', function () {
       change.style.textDecorationLine = 'line-through'
     })
+    change.addEventListener('dblclick', function () {
+      change.style.textDecorationLine = 'none'
+    })
   }
 
   const deleteButton = document.querySelectorAll('li button')
